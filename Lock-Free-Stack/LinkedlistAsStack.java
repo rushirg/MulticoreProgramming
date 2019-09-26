@@ -1,10 +1,5 @@
 /*
-Assignment: Programming Assignment 1 - Problem 2
-
-Author: Rushikesh Gaidhani(5036426)
-
-Class: Multicore Programming
-Instructor: Dr. Damian Dechev
+Author: Rushikesh Gaidhani
 */
 import java.util.concurrent.atomic.AtomicReference; 
 

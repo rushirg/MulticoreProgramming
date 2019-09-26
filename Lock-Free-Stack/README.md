@@ -1,8 +1,3 @@
-
-
-
-# Programming Assignment 1 - Problem 2
-
 ## Lock-free stack operations
 
 ### Summary
@@ -10,17 +5,16 @@ The  problem was given a concurrent stack with locks, we have to perform the sta
 
 ### Installation
 Make sure Java is installed on your system. 
-if Java is not installed then use the following command lines for <b>Ubuntu<b>
+if Java is not installed then use the following command lines for <b>Ubuntu</b>
 1. ```apt update && apt upgrade -y```
 2. ```apt install default-jre```
 3. ```apt install default-jdk```
 
 ### Compile
-Java should be installed on the system.
-Compile:
+Java should be installed on the system.</br>
+Compile:</br>
 ```javac LinkedlistAsStack.java```
 
 ### Execute
-Run:
+Run:</br>
 ```java LinkedlistAsStack```
-
