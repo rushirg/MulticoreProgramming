@@ -1,5 +1,3 @@
-# Programming Assignment 1 - Problem 1
-
 ## Find Prime Numbers between 1 to 10^8 Using 8 threads
 
 ### Summary
@@ -8,7 +6,7 @@ we know that prime numbers do not occur uniformly hence it will not be efficient
 Also, we know that there are many prime numbers between a certain range and there are comparably less prime numbers in the higher range.
 I have created a method calculatePrime() which performs the operation of calculation of prime numbers. I have used the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm to find the number of primes in a certain range. In the algorithm, we took the first prime number 2 and we set the flag to one to all its multiple. We then pick up the next unset element and set the flag to all its multiple. In the end, we will end up with only the primes number of that range.
 
-I have created two [AtomicInteger]((https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicInteger.html)) variables named as varI and varJ for the two for loops in the calculatePrime() method. The varI is for outer loop which runs initialized with two and runs till the square root of 10^8. This square root approach will eliminate the rest half of the element to process as we know its multiple are present in the first half of the totalNumbersToSearch. The calculatePrime method is synchronized which ensures that only one thread will perform the operation at a time.  
+I have created two [AtomicInteger](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicInteger.html) variables named as varI and varJ for the two for loops in the calculatePrime() method. The varI is for outer loop which runs initialized with two and runs till the square root of 10^8. This square root approach will eliminate the rest half of the element to process as we know its multiple are present in the first half of the totalNumbersToSearch. The calculatePrime method is synchronized which ensures that only one thread will perform the operation at a time.  
 
 ### Installation
 Make sure Java is installed on your system. 
