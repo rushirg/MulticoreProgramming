@@ -12,7 +12,7 @@ I have created two [AtomicInteger]((https://docs.oracle.com/javase/8/docs/api/ja
 
 ### Installation
 Make sure Java is installed on your system. 
-if Java is not installed then use the following command lines for <b>Ubuntu<b>
+if Java is not installed then use the following command lines for <b>Ubuntu</b>
 1. ```apt update && apt upgrade -y```
 2. ```apt install default-jre```
 3. ```apt install default-jdk```
