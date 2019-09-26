@@ -24,8 +24,6 @@ Compile:<br/>
 ```javac CalculatePrimeNumbers.java```<br/>
 
 #### Execute
-Compile:<br/>
-```javac CalculatePrimeNumbers```<br/>
 
 Run:<br/>
 ```java CalculatePrimeNumbers```<br/>
