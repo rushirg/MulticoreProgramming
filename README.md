@@ -10,23 +10,23 @@ I have created a method calculatePrime() which performs the calculation operatio
 I have created two [AtomicInteger]((https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicInteger.html)) variables named as varI and varJ for the two for loops in the calculatePrime() method. The varI is for outer loop which runs till the square root of 10^8. This square root approach will eliminate the rest half of the element to process as we know their multiple are present in the first half of the totalNumbersToSearch. The calculatePrime method is synchronized which ensures that only one thread will perform the operation at a time.  
 
 ### Installation
-Make sure Java is installed on your system.</br> 
-if Java is not installed then use the following command lines for <b>Ubuntu<b> </br>
-1. ```apt update && apt upgrade -y```
-2. ```apt install default-jre```
-3. ```apt install default-jdk```
+Make sure Java is installed on your system.<br/> 
+if Java is not installed then use the following command lines for <b>Ubuntu<b><br/>
+1. ```apt update && apt upgrade -y```<br/>
+2. ```apt install default-jre```<br/>
+3. ```apt install default-jdk```<br/>
 
 ### Compile
 Java should be installed on the system. </br>
-Compile:
-```javac CalculatePrimeNumbers.java```
+Compile:<br/>
+```javac CalculatePrimeNumbers.java```<br/>
 
 ### Execute
-Compile:
-```javac CalculatePrimeNumbers```
+Compile:<br/>
+```javac CalculatePrimeNumbers```<br/>
 
-Run:
-```java CalculatePrimeNumbers```
+Run:<br/>
+```java CalculatePrimeNumbers```<br/>
 
 ### Performance Evaluation
 I have compared the performance of similar implementation with a single thread and with eight threads. Following is the comparison of the execution time for a single thread and eight threads.
@@ -36,7 +36,7 @@ I have compared the performance of similar implementation with a single thread a
 | 7.283 sec  | 4.565 sec  |
 
 ### System Configuration
-Memory : 11.6 GiB </br>
-Processor : Intel® Core™ i7-7500U CPU @ 2.70GHz × 4 </br>
-OS type : 64-Bit </br>
-OS : Ubuntu 18.04.3 LTS </br>
+Memory : 11.6 GiB<br/>
+Processor : Intel® Core™ i7-7500U CPU @ 2.70GHz × 4<br/>
+OS type : 64-Bit<br/>
+OS : Ubuntu 18.04.3 LTS<br/>
