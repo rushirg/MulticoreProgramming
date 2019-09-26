@@ -1,4 +1,4 @@
-## Find Prime Numbers between 1 to 10^8 Using 8 threads
+## Prime Numbers between 1 to 10^8 Using 8 threads
 
 ### Summary
 The program computes all the prime numbers between 1 to 10^8 by spawning 8 threads. 
@@ -17,27 +17,27 @@ if Java is not installed then use the following command lines for <b>Ubuntu</b><
 3. ```apt install default-jdk```<br/>
 
 
-##### Compile
+#### Compile
 Java should be installed on the system. <br/>
 
 Compile:<br/>
 ```javac CalculatePrimeNumbers.java```<br/>
 
-### Execute
+#### Execute
 Compile:<br/>
 ```javac CalculatePrimeNumbers```<br/>
 
 Run:<br/>
 ```java CalculatePrimeNumbers```<br/>
 
-##### Performance Evaluation
+#### Performance Evaluation
 I have compared the performance of similar implementation with a single thread and with eight threads. Following is the comparison of the execution time for a single thread and eight threads.
 
 | Single Thread  | Eight Threads |
 | ------------- | ------------- |
 | 7.283 sec  | 4.565 sec  |
 
-##### System Configuration
+#### System Configuration
 Memory : 11.6 GiB<br/>
 Processor : Intel® Core™ i7-7500U CPU @ 2.70GHz × 4<br/>
 OS type : 64-Bit<br/>
