@@ -10,14 +10,14 @@ I have created a method calculatePrime() which performs the calculation operatio
 I have created two [AtomicInteger]((https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/atomic/AtomicInteger.html)) variables named as varI and varJ for the two for loops in the calculatePrime() method. The varI is for outer loop which runs till the square root of 10^8. This square root approach will eliminate the rest half of the element to process as we know their multiple are present in the first half of the totalNumbersToSearch. The calculatePrime method is synchronized which ensures that only one thread will perform the operation at a time.  
 
 ### Installation
-Make sure Java is installed on your system. 
-if Java is not installed then use the following command lines for <b>Ubuntu<b>
+Make sure Java is installed on your system.</br> 
+if Java is not installed then use the following command lines for <b>Ubuntu<b> </br>
 1. ```apt update && apt upgrade -y```
 2. ```apt install default-jre```
 3. ```apt install default-jdk```
 
 ### Compile
-Java should be installed on the system.
+Java should be installed on the system. </br>
 Compile:
 ```javac CalculatePrimeNumbers.java```
 
