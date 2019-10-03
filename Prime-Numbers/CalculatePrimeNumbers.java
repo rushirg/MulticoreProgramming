@@ -31,7 +31,7 @@ class CalculatePrimeNumbers extends Thread{
 		}
 	}	
 
-	public synchronized static void calculatePrime(){
+	public static void calculatePrime(){
 		primeNumbers[0] = 1;
 		primeNumbers[1] = 1;
 		primeNumbers[2] = 0;
